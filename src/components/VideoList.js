@@ -1,6 +1,6 @@
 import React from "react";
 import VideoItem from "./VideoItem";
-// Video list component
+// Video list components
 const VideoList = (props) => {
   const renderList = props.videos.map((element) => {
     return (
